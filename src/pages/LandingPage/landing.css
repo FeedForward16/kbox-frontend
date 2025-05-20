@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Jockey+One&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Sarala&family=Space+Grotesk&display=swap');
+.main{
+    margin: 0; /* Remove default body margin */
+    height: 100vh; /* Make body full height */
+    background: linear-gradient(to bottom, #4a148c, #000000); /* Dark purple to black gradient */
+    font-family:"jockey one", sans-serif; /* Optional: Set a default font */
+}
