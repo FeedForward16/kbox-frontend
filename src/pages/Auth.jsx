@@ -1,6 +1,6 @@
 import React, { useState, lazy, Suspense } from "react";
-const Login = lazy(() => import("./Login"));
-const Signup = lazy(() => import("./SignUp"));
+const Login = lazy(() => import("./Login/Login"));
+const Signup = lazy(() => import("./SignUp/SignUp"));
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true); 
